@@ -1,0 +1,12 @@
+Param importar uma Classe quando os arquivos estão no mesmo pacote
+simplesmete use:
+    import'./Classe.dart';
+ou somente
+    import'Classe.dart';
+Agora suponha que tenhamos duas pastas, um Model e outra teste separadas:
+    import'../Model/Classe.dart'
+E caso Model esteja dentro de pessoa, apenas use:
+    import'model/Classe.dart';
+
+Lembrando que onde estamos fazendo esses imports é no arquivo de teste
+que possui o main().
